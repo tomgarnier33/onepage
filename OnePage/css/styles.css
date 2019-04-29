@@ -1,0 +1,122 @@
+.navbar-brand img{
+	max-height: 40px;
+}
+
+header .row{
+
+	min-height: 70vh;
+	background-image: url(../img/vue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+align-items: center;
+color: white;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formReservation{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 70vh;
+display: flex;
+align-items: center;
+
+}
+
+header h1{
+font-family: 'Kurale', serif;}
+
+header h2{
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 50px;
+}
+
+header .slogan{
+	display:flex;
+	min-height: 70vh;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+	header .slogan{
+		display: none;
+		}
+	}
+
+	#presentation .media span{
+color: #d7b841;
+font-size: 3rem;
+width: 4rem;
+text-align: center;
+	}
+
+#presentation .media{
+		padding: .5rem 1rem;
+		cursor: pointer;
+		border-radius: 3px;
+		transition: all .3s ease-in-out;
+
+}
+	#presentation .media:hover{
+		background-color: rgba(128,128,128,0.5);
+
+	}
+
+	.fondChambre{
+		min-height: : calc(100vh - 50px);
+		background-image: url(../img/chambre.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+	
+	.avisClient{
+		min-height: calc(100vh - 50px);
+		background-color: #d3dae4;
+	}
+
+	.avisClient span{
+		font-size: 5rem;
+		color:#17a2b8;
+	}
+
+	.avisClient h5{
+		font-size: 2rem;
+		color:#888;
+	}
+
+	#contact{
+	background-image: url(../img/champagne.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    min-height: calc(100vh - 50px);
+}
+
+	#contact .row{
+		min-height: calc(100vh - 50px);
+	}
+
+	.formcontact{
+		background-color: rgba(255,255,255,.7);
+		padding: 2rem 1rem;
+	}
+
+	footer{
+		background-color: rgba(0,0,0,.8);
+		color: #999;
+		padding-top: 2rem;
+		padding-bottom:1.5rem;
+	}
+
+	footer a{
+		color:#999;
+		font-size:2rem;
+		transition:all .2s ease-in-out;
+	}
+
+	footer a:hover{
+		color:#fff;
+		text-decoration:none;
+	}
